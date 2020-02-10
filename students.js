@@ -107,4 +107,4 @@ const students = [
         firstName: 'Timothy',
         lastName: 'Mickiewicz'
     }
-];
+]
