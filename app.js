@@ -1,3 +1,4 @@
+// TM - 02.09.19 - Dynamically creates script tag for student.js file.
 const studentScript = document.createElement('script'); 
 studentScript.src = "students.js";
 document.body.appendChild(studentScript);
