@@ -9,7 +9,7 @@ const students = [
     },
     {
         firstName: 'Annaruth',
-        lastName: 'Mcbride'
+        lastName: 'McBride'
     },
     {
         firstName: 'Charlenne',
