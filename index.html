@@ -10,24 +10,33 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
     </head>
 
     <body>
-        <div class="jumbotron">
-            <h1 class="display-4">Student Randomizer</h1>
-            <p class="lead">
-                This is a simple app to get random names of students in the
-                Vanderbilt Coding Bootcamp.
-            </p>
-            <hr class="my-4" />
+        <div class="container">
+            <div class="jumbotron">
+                <img
+                    src="assets/images/v_logo.png"
+                    alt="vanderbilt logo"
+                    class="logo"
+                />
+                <div class="text-wrapper clearfix">
+                    <h1 class="display-4">Student Randomizer</h1>
+                    <p class="lead">
+                        This is a simple app to get random names of students in
+                        the Vanderbilt Coding Bootcamp.
+                    </p>
+                </div>
 
-            <button class="btn btn-primary btn-lg" id="randomize">
-                Randomize
-            </button>
+                <hr class="my-4" />
+
+                <button class="btn btn-primary btn-lg" id="randomize">
+                    Randomize
+                </button>
+                <h1 id="random-name" class="text-center"></h1>
+            </div>
         </div>
-
-        <h1 id="random-name" class="text-center"></h1>
-
         <!-- Scripts -->
 
         <script
@@ -47,6 +56,10 @@
         ></script>
         <!-- TM 02.03.19 - Removes manually sourced JS file. -->
         <!-- <script src="students.js"></script> -->
-        <script id="app" type="text/javascript" src="app.js"></script>
+        <script
+            id="app"
+            type="text/javascript"
+            src="./assets/js/app.js"
+        ></script>
     </body>
 </html>
