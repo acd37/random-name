@@ -108,3 +108,29 @@ const students = [
         lastName: 'Mickiewicz'
     }
 ];
+
+const adjectives = [
+    'moldy',
+    'frosty',
+    'overbaked',
+    'toasted',
+    'burned',
+    'stinky',
+    'steaming hot',
+    'neglected',
+    'deflated',
+    'crumbled'
+];
+
+const bakedGoods = [
+    'cupcake',
+    'cookie',
+    'muffin',
+    'cake',
+    'lemon loaf',
+    'brownie',
+    'chocolate éclair',
+    'macaron',
+    'donut',
+    'pie'
+];

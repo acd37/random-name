@@ -4,22 +4,13 @@ studentScript.src = './assets/js/students.js';
 document.body.appendChild(studentScript);
 
 function getRandomStudents() {
-    let random = Math.floor(Math.random() * students.length + 1);
+    const random = Math.floor(Math.random() * students.length);
+
     $('#random-name').html(
-        '<p>' +
-            students[random].firstName +
-            ' ' +
-            students[random].lastName +
-            '</p>'
+        '<p>' + students[random].firstName + ' ' + students[random].lastName
     );
 }
 
 $('#randomize').click(function() {
-    const studentInterval = setInterval(function() {
-        getRandomStudents();
-    }, 50);
-
-    setTimeout(function() {
-        clearInterval(studentInterval);
-    }, 2000);
+    getRandomStudents();
 });
